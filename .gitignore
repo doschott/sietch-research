@@ -1,0 +1,31 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Logs and local session data (never commit raw session logs)
+*.log
+logs/
+sessions/
+
+# Game files must never be committed
+*.pak
+*.utoc
+*.ucas
+*.exe
+*.dll
+
+# Python / Node artifacts
+__pycache__/
+*.pyc
+.venv/
+node_modules/
