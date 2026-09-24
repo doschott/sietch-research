@@ -44,7 +44,9 @@ Dune: Awakening and related names are trademarks of their respective owners. The
 
 ## License
 
-TBD. No license has been chosen yet. Until one is added, all rights are reserved by the author.
+This project is released into the public domain under the Unlicense. See [LICENSE](LICENSE) and [https://unlicense.org](https://unlicense.org).
+
+This dedication covers only this repository's own original content. It grants no rights over Funcom's or Dune trademarks, game assets, or any other third-party material.
 
 ## Credits
 

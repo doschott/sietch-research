@@ -35,7 +35,7 @@ Pull requests that include any of the above will be closed, and the content remo
 
 ## License
 
-No license has been chosen yet (TBD). By contributing, you agree that your contribution may be included under whatever license the project adopts.
+This project is released into the public domain under the [Unlicense](LICENSE). By contributing, you agree that your contributions are dedicated to the public domain under the same terms.
 
 ## Code of Conduct
 
