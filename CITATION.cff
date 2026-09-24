@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use Sietch Research, cite this metadata."
+title: "Sietch Research"
+abstract: >-
+  Draft research design and an offline sandbox for studying how two
+  persistent agents plan, hand off work, and recover from failure under
+  human supervision. A connection to Dune: Awakening is disabled until
+  written permission exists. The project is not affiliated with or
+  endorsed by Funcom.
+authors:
+  - family-names: Schott
+    given-names: Daniel Otto
+    email: doschott@gmail.com
+    website: "https://github.com/doschott"
+contact:
+  - family-names: Schott
+    given-names: Daniel Otto
+    email: doschott@gmail.com
+version: "0.1.0"
+date-released: "2026-09-24"
+license: Unlicense
+license-url: "https://unlicense.org"
+repository-code: "https://github.com/doschott/sietch-research"
+type: software
+keywords:
+  - multi-agent systems
+  - human oversight
+  - research sandbox
+  - handoff
+  - failure recovery

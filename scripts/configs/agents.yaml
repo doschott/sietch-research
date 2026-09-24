@@ -1,0 +1,21 @@
+# Role card for the two research agents. This file is not a live-game config.
+# How either agent would connect to a game client is an open question,
+# proposed, pending Funcom review. The runner does not read this file.
+agents:
+  eve:
+    name: Eve
+    role: planner
+    keeps: task goal, water, and when to ask Edos for help
+  edos:
+    name: Edos
+    role: recovery
+    keeps: repair, shelter during a failure, and the handoff back to Eve
+handoff_required_fields:
+  - from_agent
+  - to_agent
+  - goal
+  - reason
+  - world_snapshot
+  - open_commitments
+  - failure_history
+real_game_connection: false
