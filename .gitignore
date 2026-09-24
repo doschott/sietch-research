@@ -29,3 +29,11 @@ __pycache__/
 *.pyc
 .venv/
 node_modules/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+*.jsonl

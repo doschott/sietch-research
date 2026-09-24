@@ -1,0 +1,31 @@
+# Same registered scenario as sandbox.yaml, with the retry policy.
+# Used to compare recovery latency inside the mock world.
+mode: sandbox
+real_game_connection: false
+policy: scripted
+policy_style: retry
+seed: 7
+max_steps: 16
+session_id: null
+world:
+  water: 4
+  base_integrity: 3
+  storm_period: 6
+  storm_length: 2
+  max_water: 8
+  max_base: 10
+agents:
+  eve:
+    role: planner
+    policy: scripted
+  edos:
+    role: recovery
+    policy: scripted
+supervisor:
+  human_present: true
+  approval_required:
+    - abandon_shelter
+    - discard_water
+logging:
+  path: sessions/sandbox-retry.jsonl
+  reject_personal_data: true

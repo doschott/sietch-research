@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sietch-sandbox"
+version = "0.1.0"
+description = "Offline supervised two-agent sandbox. Real-game connection is disabled."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Unlicense" }
+authors = [{ name = "Daniel Schott" }]
+dependencies = ["PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+sietch-sandbox = "sietch.session:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sietch*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
