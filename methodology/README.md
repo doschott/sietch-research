@@ -1,29 +1,21 @@
-# Methodology
+# Draft research protocol
 
-This is a placeholder for the research approach. Every section below is TBD and will be completed as part of the written protocol shared with Funcom before any agent session.
+These files are the public draft of the research plan offered in the September 2026 permission request. They are the plan for the sandbox study that can run today, and they mark every game-session detail the request does not settle. Funcom has not accepted this draft. No agent session in Dune: Awakening will be held until a written answer is received, and a game-session protocol would then be updated to include any conditions in that answer.
 
-No agent play will take place in Dune: Awakening until written permission from Funcom is received. See [../docs/definitions.md](../docs/definitions.md) for scope and boundaries.
+> **Permission status.** Written permission from Funcom has been requested and is pending. A follow-up was sent on 24 September 2026 (support ticket #308630). No agent will play in Dune: Awakening until a written answer is received. If the answer is no, the agents stay out. If the answer is yes with conditions, those conditions are followed. This project is not affiliated with, sponsored by, or endorsed by Funcom.
 
-## Research questions
+The plan follows the pre-registration practice described by the Center for Open Science: write the questions, the comparisons, and the metrics before treating any number as a finding, and record deviations in the open. See [../docs/references.md](../docs/references.md). This draft has not been deposited on a registry.
 
-TBD.
+## Documents
 
-## Setup
+| File | What it settles |
+| --- | --- |
+| [research-plan.md](research-plan.md) | Questions, hypotheses, and the supervised-agent setup |
+| [supervision.md](supervision.md) | Operator presence, approval gate, kill switch |
+| [evaluation.md](evaluation.md) | Metric definitions and the scenario v1 fingerprint |
+| [reproducibility.md](reproducibility.md) | How to rerun the sandbox checks |
+| [data-handling.md](data-handling.md) | Log contents, retention, and personal data (proposals) |
+| [threats-to-validity.md](threats-to-validity.md) | What the sandbox cannot show |
+| [deviations.md](deviations.md) | Changes after this draft |
 
-TBD. Will describe the closed, self-hosted research battlegroup and how it is configured using Funcom's official self-host tools.
-
-## Agent roles
-
-TBD. Will describe the roles of the two research agents, Eve and Edos, and how they coordinate and hand off work.
-
-## Supervision and safety
-
-TBD. Will describe human operator presence during every agent session, and criteria for pausing or stopping a session.
-
-## Data handling
-
-TBD. Will describe what is logged, how logs are stored and retained, and how logs are provided to Funcom on request.
-
-## Reporting
-
-TBD. Will describe how findings are written up and how Funcom receives a first look before any public writeup.
+Terms used here are defined in [../docs/definitions.md](../docs/definitions.md).
